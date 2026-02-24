@@ -196,9 +196,10 @@ export const BackupRestore: React.FC = () => {
         transition={{ delay: 0.4 }}
       >
         <p className="text-xs text-gray-700 dark:text-gray-300">
-          <span className="font-semibold">ℹ️ Note:</span> Your data is automatically saved to your browser's local storage. Use backup & restore to transfer data across devices or browsers.
+          <span className="font-semibold">ℹ️ Note:</span> Your data is automatically saved to your browser&apos;s local storage. Use backup & restore to transfer data across devices or browsers.
         </p>
       </motion.div>
     </motion.div>
   );
 };
+
