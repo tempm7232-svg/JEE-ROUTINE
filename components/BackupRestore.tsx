@@ -5,7 +5,6 @@ import { motion } from 'framer-motion';
 import { Download, Upload, AlertTriangle } from 'lucide-react';
 import { useStudyStore } from '@/store/useStudyStore';
 import { useToast } from '@/hooks';
-import { cn } from '@/utils/cn';
 
 export const BackupRestore: React.FC = () => {
   const { toast, showToast } = useToast();
@@ -202,4 +201,5 @@ export const BackupRestore: React.FC = () => {
     </motion.div>
   );
 };
+
 
