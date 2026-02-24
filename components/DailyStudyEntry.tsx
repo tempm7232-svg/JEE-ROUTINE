@@ -104,7 +104,7 @@ export const DailyStudyEntry: React.FC = () => {
       transition={{ duration: 0.5 }}
     >
       <div className="space-y-1">
-        <h2 className="text-2xl font-bold text-gray-900 dark:text-white">Today's Study Log</h2>
+        <h2 className="text-2xl font-bold text-gray-900 dark:text-white">Today&apos;s Study Log</h2>
         <p className="text-sm text-gray-600 dark:text-gray-400">{today}</p>
       </div>
 
@@ -200,3 +200,4 @@ export const DailyStudyEntry: React.FC = () => {
     </motion.div>
   );
 };
+
