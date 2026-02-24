@@ -7,7 +7,6 @@ import { useStudyStore } from '@/store/useStudyStore';
 import { useToast } from '@/hooks';
 
 export const BackupRestore: React.FC = () => {
-  const { toast, showToast } = useToast();
   const exportData = useStudyStore((state) => state.exportData);
   const importData = useStudyStore((state) => state.importData);
   const resetAllData = useStudyStore((state) => state.resetAllData);
@@ -201,5 +200,6 @@ export const BackupRestore: React.FC = () => {
     </motion.div>
   );
 };
+
 
 
