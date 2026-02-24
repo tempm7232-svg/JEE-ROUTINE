@@ -6,6 +6,7 @@ import { Download, Upload, AlertTriangle } from 'lucide-react';
 import { useStudyStore } from '@/store/useStudyStore';
 
 export const BackupRestore: React.FC = () => {
+  const { showToast } = useToast();
   const exportData = useStudyStore((state) => state.exportData);
   const importData = useStudyStore((state) => state.importData);
   const resetAllData = useStudyStore((state) => state.resetAllData);
@@ -199,6 +200,7 @@ export const BackupRestore: React.FC = () => {
     </motion.div>
   );
 };
+
 
 
 
